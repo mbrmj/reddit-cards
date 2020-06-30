@@ -3,9 +3,9 @@
     top: 50%;
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    opacity: 0.8;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    opacity: 0.6;
     cursor: hand;
     cursor: pointer;
 }

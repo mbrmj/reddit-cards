@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavArrowComponent } from './nav-arrow/nav-arrow.component';
-import { NacPanelComponent } from './nac-panel/nac-panel.component';
 import { NavPanelComponent } from './nav-panel/nav-panel.component';
 import { TiltePanelComponent } from './tilte-panel/tilte-panel.component';
 
@@ -13,7 +12,6 @@ import { TiltePanelComponent } from './tilte-panel/tilte-panel.component';
   declarations: [
     AppComponent,
     NavArrowComponent,
-    NacPanelComponent,
     NavPanelComponent,
     TiltePanelComponent
   ],
