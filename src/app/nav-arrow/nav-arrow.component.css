@@ -1,0 +1,21 @@
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    opacity: 0.8;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.orientation-right {
+    border-left: 30px solid white;
+    right: 10px;
+}
+
+.orientation-left {
+    border-right: 30px solid white;
+    left: 10px;
+}
