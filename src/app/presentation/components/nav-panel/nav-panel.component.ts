@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Post } from '../../model/post';
 
 @Component({
   selector: 'app-nav-panel',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavPanelComponent implements OnInit {
 
-  constructor() { }
+   @Input("posts")
+    posts: Array<Post>;
 
+
+  constructor() { }
   ngOnInit() {
   }
 

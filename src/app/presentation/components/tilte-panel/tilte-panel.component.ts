@@ -12,11 +12,11 @@ export class TiltePanelComponent implements OnInit {
   user:string;
   @Input("sub")
   sub:string;
-
   
   constructor() { }
-
+  
   ngOnInit() {
   }
-
+  
+  
 }

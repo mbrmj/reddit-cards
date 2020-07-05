@@ -1,0 +1,14 @@
+
+<div [ngClass]="['wraper',position]">
+    <div *ngIf="opened; else hiddenblock">
+        <div class="box">
+            <div class="collapser" (click)="onOpenStateupdate()">-</div>
+            <div>
+                <ng-content></ng-content>
+            </div>
+        </div>
+    </div>
+    <ng-template #hiddenblock>
+        <div class="enabler" (click)="onOpenStateupdate()">+</div>
+    </ng-template>
+</div>

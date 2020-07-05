@@ -1,0 +1,41 @@
+
+.box {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    width: 450px;
+    overflow: auto;
+    opacity: 0.9;
+    font: bold 20px Helvetica, Arial, Sans-serif;
+}
+
+
+.collapser {
+    border: solid 1px #555;
+    font-size: 20px;
+    color: #bbb;
+    padding: 0 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.enabler {
+    margin-block-start: 0em;
+    border: solid 1px #555;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    color: #bbb;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.wraper {
+    position: absolute;
+}
+.position-top {
+    top: 0;
+}
+
+
+.position-bottom {
+    bottom: 0;
+}

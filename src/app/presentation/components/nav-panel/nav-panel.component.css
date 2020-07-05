@@ -1,0 +1,23 @@
+.postsBox {
+    margin-block-start: 0.1em;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 2px ;
+    font-weight: bold;
+    display: inline-block;
+}
+
+p {
+    padding: 5px;
+    margin: 2px ;
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+}
